@@ -1,0 +1,15 @@
+<div
+  class="task-box"
+  [ngClass]="{ reminder: task.reminder }"
+  (dblclick)="onDblClick(task)"
+>
+  <div>
+    <h3>
+      {{ task.text }}
+    </h3>
+    <span (click)="onClick(task)">x</span>
+  </div>
+  <p>
+    {{ task.day }}
+  </p>
+</div>

@@ -1,0 +1,8 @@
+<app-add-task (addTask)="addTask($event)"></app-add-task>
+<app-task-box
+  *ngFor="let task of TASKS"
+  [task]="task"
+  (deleteClick)="deleteTask(task)"
+  (reminderClick)="changeReminder(task)"
+></app-task-box>
+<div class="text-center"><a routerLink="/about">About Us</a></div>

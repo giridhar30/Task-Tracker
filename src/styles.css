@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+.container {
+  font-family: sans-serif;
+  margin: 1.2rem;
+  border: solid black 1px;
+  padding: 2rem;
+}
+
+.btn {
+  border-radius: 4px;
+  padding: 10px 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn.btn-block {
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+
+button.btn:hover {
+  border: 3px solid black;
+}
+
+.text-center {
+  margin-top: 20px;
+  text-align: center;
+}
